@@ -1,0 +1,56 @@
+[
+    {
+        "language":  "javascript",
+        "status":  "ok",
+        "attempt":  3,
+        "version":  3,
+        "modules":  4,
+        "lessons":  12,
+        "title":  "JAVASCRIPT Complete Path: Beginner to Advanced"
+    },
+    {
+        "language":  "python",
+        "status":  "ok",
+        "attempt":  1,
+        "version":  1,
+        "modules":  4,
+        "lessons":  12,
+        "title":  "PYTHON Complete Path: Beginner to Advanced"
+    },
+    {
+        "language":  "c",
+        "status":  "ok",
+        "attempt":  2,
+        "version":  1,
+        "modules":  4,
+        "lessons":  12,
+        "title":  "C Complete Path: Beginner to Advanced"
+    },
+    {
+        "language":  "cpp",
+        "status":  "ok",
+        "attempt":  1,
+        "version":  1,
+        "modules":  4,
+        "lessons":  12,
+        "title":  "CPP Complete Path: Beginner to Advanced"
+    },
+    {
+        "language":  "rust",
+        "status":  "ok",
+        "attempt":  1,
+        "version":  1,
+        "modules":  4,
+        "lessons":  12,
+        "title":  "RUST Complete Path: Beginner to Advanced"
+    },
+    {
+        "language":  "go",
+        "status":  "ok",
+        "attempt":  2,
+        "version":  2,
+        "modules":  4,
+        "lessons":  12,
+        "title":  "GO Complete Path: Beginner to Advanced"
+    }
+]
