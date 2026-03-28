@@ -22,10 +22,13 @@ def _parse_cors_origins() -> tuple[list[str], bool]:
     if allow_all:
         return ["*"], True
 
-    raw = os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
+    raw = os.getenv(
+        "CORS_ALLOWED_ORIGINS",
+        "http://localhost:3000,http://127.0.0.1:3000,https://code-lab-frontend-five.vercel.app",
+    )
     origins = [item.strip() for item in raw.split(",") if item.strip()]
     if not origins:
-        origins = ["http://localhost:3000", "http://127.0.0.1:3000"]
+        origins = ["http://localhost:3000", "http://127.0.0.1:3000", "https://code-lab-frontend-five.vercel.app"]
 
     return origins, False
 

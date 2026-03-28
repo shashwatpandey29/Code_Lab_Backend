@@ -22,7 +22,7 @@ OPENROUTER_MODEL_FALLBACKS = os.getenv(
     "openrouter/auto,meta-llama/llama-3.1-8b-instruct:free,mistralai/mistral-7b-instruct:free",
 )
 OPENROUTER_BACKOFF_SEC = float(os.getenv("OPENROUTER_BACKOFF_SEC", "1.0"))
-OPENROUTER_HTTP_REFERER = os.getenv("OPENROUTER_HTTP_REFERER", "http://localhost:3000")
+OPENROUTER_HTTP_REFERER = os.getenv("OPENROUTER_HTTP_REFERER", "https://code-lab-frontend-five.vercel.app")
 OPENROUTER_X_TITLE = os.getenv("OPENROUTER_X_TITLE", "CodeLab")
 COURSE_MAX_MODULES = int(os.getenv("COURSE_MAX_MODULES", "8"))
 COURSE_MAX_LESSONS_PER_MODULE = int(os.getenv("COURSE_MAX_LESSONS_PER_MODULE", "6"))
